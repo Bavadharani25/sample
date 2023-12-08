@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            color:brown;
+        }
+        h2{
+            color:crimson;
+        }
+        h3{
+            color:blueviolet;
+        }
+        h4{
+            color:yellow;
+        }
+        ol{
+            color:darkblue;
+            border:1px solid blue;
+            background-color: cadetblue;
+        }
+        ul{
+            color:midnightblue;
+            border: 1px solid chocolate;
+            background-color:lightcoral
+        }
+        form{
+            border: 1px solid green;
+            background-color:beige;
+        }
+    </style>
+</head>
+<body>
+    <p><b><i>This is PARA</i></b></p>
+    <!--Headings-->
+    <h1>H1 TAG</h1>
+    <h2>H2 TAG</h2>
+    <h3>H3 TAG</h3>
+    <h4>H4 TAG</h4>
+    <h5>H5 TAG</h5>
+    <h6>H6 TAG</h6>
+    <!--Ordered List-->
+    <ol type="i">
+        <li>FAMILY</li>
+        <li>FRIENDS</li>
+    </ol>
+    <!--Unordered List-->
+    <ul type="circle">
+        <li>SCHOOL</li>
+        <li>COLLEGE</li>
+    </ul>
+    <!--Definition List or Description List-->
+    <dl>
+        <dt>TN</dt>
+        <dd>TamilNadu</dd>
+    </dl>
+    <!--Form Types-->
+    <form>
+        <!--<label for="username">UserName</label>-->
+        <input id="username" type="text" placeholder="UserName" required /><br><br> <!--selfclosing tag-->
+        <input type="password" placeholder="Password" required/><br><br>
+        <input type="email" placeholder="Email Id" required/><br><br>
+        <!--Radio Buttons-->
+        <input type="radio" name="Gender"/>
+        <label>Male</label>
+        <input type="radio" name="Gender"/>
+        <label>Female</label>
+        <!--CheckBoxes-->
+        <h5>Select your fav state</h5>
+        <input type="checkbox" name="states"/>
+        <label>TamilNadu</label><br>
+        <input type="checkbox" name="states"/>
+        <label>Kerala</label><br>
+        <input type="checkbox" name="states"/>
+        <label>Andhra</label><br>
+        <input type="checkbox" name="states"/>
+        <label>Karnataka</label>
+            <h5>Choose your transport</h5>
+            <select>
+            <option>Bike</option>
+            <option>Car</option>
+            <option>Train</option>
+            <option>Bus</option>
+            </select><br><br>
+            <input type="file"/>
+            <input type="date"/>
+            <input type="submit" value="Login"/>
+            <input type="reset" value="Reset"/>
+    </form>
+</body>
+</html>
