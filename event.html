@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<button>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            height: 500vh;
+            width: 100vw;
+        }
+    </style>
+</head>
+<body>
+    <button id="mybutton">Click</button>
+    <input id="uname"/>
+
+    <script>
+        //click
+        document.getElementById("mybutton").addEventListener('click',function handleClick()
+        {
+            alert("Button Clicked")
+        })
+        //scroll
+        window.addEventListener('scroll',function handleScroll()
+        {
+            alert("scrolled")
+        })
+        //mouse over
+        document.getElementById("mybutton").addEventListener("mouseover",function mouseover()
+        {
+            alert("Mouse hoverd");
+        })
+        //keyboard events
+        document.getElementById("uname").addEventListener("keypress",function keyPress()
+        {
+            alert("Enter key is pressed")
+        })
+    </script>
+</body>
+</html>
